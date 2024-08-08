@@ -1,0 +1,420 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="icon" href="./assets/logo.png">
+    <link rel="stylesheet" href="style.css">
+    <title>Spotify - Web Player: Music for everyone</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+</head>
+<body>
+    <div class="main">
+        <div class="sidebar">
+            <div class="nav">
+                <div class="nav-option" style="opacity: 1;">
+                    <i class="fa-solid fa-house"></i>
+                    <a href="#">Home</a>
+                </div>
+                <div class="nav-option">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                    <a href="#">Search</a>
+                </div>
+            </div>
+
+            <div class="library">
+                <div class="options">
+                    <div class="lib-option nav-option">
+                        <img src="./assets/library_icon.png">
+                        <a href="#">Your Library</a>
+                    </div>
+                    <div class="icons">
+                        <i class="fa-solid fa-plus"></i>
+                        <i class="fa-solid fa-arrow-right"></i>
+                    </div>
+                </div>
+                <div class="lib-box">
+                    <div class="box">
+                        <p class="box-p1">Create your first playlist</p>
+                        <p class="box_p2">It's easy, we'll help you</p>
+                        <button class="badge">Create playlist</button>
+                    </div>
+                    <div class="box">
+                        <p class="box-p1">Let's find some podcasts to follow</p>
+                        <p class="box_p2">We'll keep you updated on new episodes</p>
+                        <button class="badge">Browse podcasts</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="main-content">
+            <div class="sticky-nav">
+                <div class="sticky-nav-icons">
+                    <button class="badge btn-icon dark-badge"><img src="./assets/backward_icon.png"></button>
+                    <button class="badge btn-icon dark-badge hide"><img src="./assets/forward_icon.png"></button>
+                </div>
+                <div class="sticky-nav-options">
+                    <button class="badge nav-item hide">Explore Premium</button>
+                    <button class="badge nav-item dark-badge"><i class="fa-regular fa-circle-down" style="margin-right: 1rem;"></i>Install App</button>
+                    <button class="badge btn-icon nav-item dark-badge"><i class="fa-regular fa-user"></i></button>
+                </div>
+            </div>
+
+            <h2>Recently played</h2>
+            <div class="card-container">
+                <div class="album">
+                    <img src="/assets/row2 (5).jpeg" class="card-img">
+                    <div class="card-title">Ramadaniyat</div>
+                    <div class="card-info">Feel the spirit of Ramadan with Amdah and Anashid...</div>
+                    <i class="fa-sharp fa-solid fa-circle-play play-icon"></i>
+                </div>
+                <div class="album">
+                    <img src="/assets/row2 (4).jpeg" class="card-img">
+                    <div class="card-title">Top Artists of 2023</div>
+                    <div class="card-info">The most streamed artists of 2023 in Pakistan. Cover: Atif...</div>
+                    <i class="fa-sharp fa-solid fa-circle-play play-icon"></i>
+                </div>
+                <div class="album">
+                    <img src="/assets/row2 (3).jpeg" class="card-img">
+                    <div class="card-title">Punjabi 101</div>
+                    <div class="card-info">Ultimate 101 Punjabi Hits with Ap Dhillon & Shinda Kahlon</div>
+                    <i class="fa-sharp fa-solid fa-circle-play play-icon"></i>
+                </div>
+                <div class="album">
+                    <img src="/assets/row2 (2).jpeg" class="card-img">
+                    <div class="card-title">Downtempo Cruising</div>
+                    <div class="card-info">late night long drives</div>
+                    <i class="fa-sharp fa-solid fa-circle-play play-icon"></i>
+                </div>
+                <div class="album">
+                    <img src="/assets/row2 (1).jpeg" class="card-img">
+                    <div class="card-title">Hot Hit Pakistan</div>
+                    <div class="card-info">The hottest tracks trending in Pakistan featuring AUR, Anu...</div>
+                    <i class="fa-sharp fa-solid fa-circle-play play-icon"></i>
+                </div>
+            </div>
+            
+            <h2>Today's biggest hits</h2>
+            <div class="card-container">
+                <div class="album">
+                    <img src="/assets/Row1 (4).jpeg" class="card-img">
+                    <div class="card-title">Top  Tracks of 2023...</div>
+                    <div class="card-info">The most streamed tracks in Pakistan this year. Cover:Ka..</div>
+                    <i class="fa-sharp fa-solid fa-circle-play play-icon"></i>
+                </div>
+                <div class="album">
+                    <img src="/assets/Row1 (3).jpeg" class="card-img">
+                    <div class="card-title">Hip Te Hop</div>
+                    <div class="card-info">THis is how we do it, This is our style. Cover:Sidhu Moo...</div>
+                    <i class="fa-sharp fa-solid fa-circle-play play-icon"></i>
+                </div>
+                <div class="album">
+                    <img src="/assets/Row1 (1).jpeg" class="card-img">
+                    <div class="card-title">Hot Hits Punjabi</div>
+                    <div class="card-info">Catch the hottest Punjabi tracks with Sidhu Moose Wa...</div>
+                    <i class="fa-sharp fa-solid fa-circle-play play-icon"></i>
+                </div>
+                <div class="album">
+                    <img src="/assets/Row1 (2).jpeg" class="card-img">
+                    <div class="card-title">Pakka Hit Hai</div>
+                    <div class="card-info">Current Pakistani hits undaer one roof. Cover: Nehaal...</div>
+                    <i class="fa-sharp fa-solid fa-circle-play play-icon"></i>
+                </div>
+                <div class="album">
+                    <img src="/assets/Row1 (5).jpeg" class="card-img">
+                    <div class="card-title">Bollywood Central</div>
+                    <div class="card-info">Bollywood Central, jab baje toh seedha ka centre mei...</div>
+                    <i class="fa-sharp fa-solid fa-circle-play play-icon"></i>
+                </div>
+            </div>
+
+            <h2>Desi</h2>
+            <div class="card-container">
+                <div class="album">
+                    <img src="/assets/row3 (5).jpeg" class="card-img">
+                    <div class="card-title">Desi Focus</div>
+                    <div class="card-info">Zone out with these downtempo desi tracks and...</div>
+                    <i class="fa-sharp fa-solid fa-circle-play play-icon"></i>
+                </div>
+                <div class="album">
+                    <img src="/assets/row3 (4).jpeg" class="card-img">
+                    <div class="card-title">desi lofi</div>
+                    <div class="card-info">*vibing in desi*</div>
+                    <i class="fa-sharp fa-solid fa-circle-play play-icon"></i>
+                </div>
+                <div class="album">
+                    <img src="/assets/row3 (3).jpeg" class="card-img">
+                    <div class="card-title">Desi Love Songs</div>
+                    <div class="card-info">Spark some romance with your favorite love songs.</div>
+                    <i class="fa-sharp fa-solid fa-circle-play play-icon"></i>
+                </div>
+                <div class="album">
+                    <img src="/assets/row3 (2).jpeg" class="card-img">
+                    <div class="card-title">Desi Indie</div>
+                    <div class="card-info">Home to the best of South Asian Indie scene. Cover:...</div>
+                    <i class="fa-sharp fa-solid fa-circle-play play-icon"></i>
+                </div>
+                <div class="album">
+                    <img src="/assets/row3 (1).jpeg" class="card-img">
+                    <div class="card-title">Desi Hip Hop</div>
+                    <div class="card-info">Best of hip-hop tracks from South Asia. Cover: Faris Shafi</div>
+                    <i class="fa-sharp fa-solid fa-circle-play play-icon"></i>
+                </div>
+            </div>
+
+            <h2>Ultimate Punjabi Hits</h2>
+            <div class="card-container">
+                <div class="album">
+                    <img src="/assets/row4 (1).jpeg" class="card-img">
+                    <div class="card-title">Punjabi Pop</div>
+                    <div class="card-info">Get your dose of Punjabi Pop with Chandra Bar and Avee...</div>
+                    <i class="fa-sharp fa-solid fa-circle-play play-icon"></i>
+                </div>
+                <div class="album">
+                    <img src="/assets/row4 (5).jpeg" class="card-img">
+                    <div class="card-title">This is AP Dhillon</div>
+                    <div class="card-info">By Spotify</div>
+                    <i class="fa-sharp fa-solid fa-circle-play play-icon"></i>
+                </div>
+                <div class="album">
+                    <img src="/assets/row4 (4).jpeg" class="card-img">
+                    <div class="card-title">New Music Punjabi</div>
+                    <div class="card-info">Stay updated with all the smashing new Punjabi musi...</div>
+                    <i class="fa-sharp fa-solid fa-circle-play play-icon"></i>
+                </div>
+                <div class="album">
+                    <img src="/assets/row4 (3).jpeg" class="card-img">
+                    <div class="card-title">HIDDEN GEMS</div>
+                    <div class="card-info">Various Artists</div>
+                    <i class="fa-sharp fa-solid fa-circle-play play-icon"></i>
+                </div>
+                <div class="album">
+                    <img src="/assets/row4 (2).jpeg" class="card-img">
+                    <div class="card-title">Punjabiyan Di Dhee</div>
+                    <div class="card-info">Guru Randhawa, Bohemia</div>
+                    <i class="fa-sharp fa-solid fa-circle-play play-icon"></i>
+                </div>
+            </div>
+            <h2>Hip Hop</h2>
+            <div class="card-container">
+                <div class="album">
+                    <img src="/assets/row5 (5).jpeg" class="card-img">
+                    <div class="card-title">Pakistani Hip-Hop</div>
+                    <div class="card-info">Rap gods of Pakistan. Checkout new hip-hop...</div>
+                    <i class="fa-sharp fa-solid fa-circle-play play-icon"></i>
+                </div>
+                <div class="album">
+                    <img src="/assets/row5 (4).jpeg" class="card-img">
+                    <div class="card-title">Desi Hip-Hop</div>
+                    <div class="card-info">Best of hip-hop tracks from South Asia. Cover Faris Shafi</div>
+                    <i class="fa-sharp fa-solid fa-circle-play play-icon"></i>
+                </div>
+                <div class="album">
+                    <img src="/assets/row5 (2).jpeg" class="card-img">
+                    <div class="card-title">Beast Mode</div>
+                    <div class="card-info">Get your beast mode on!</div>
+                    <i class="fa-sharp fa-solid fa-circle-play play-icon"></i>
+                </div>
+                <div class="album">
+                    <img src="/assets/row5 (1).jpeg" class="card-img">
+                    <div class="card-title">nayi bars</div>
+                    <div class="card-info">New Pakistani hp-hop tracks updated every Friday. Like...</div>
+                    <i class="fa-sharp fa-solid fa-circle-play play-icon"></i>
+                </div>
+                <div class="album">
+                    <img src="/assets/row5 (3).jpeg" class="card-img">
+                    <div class="card-title">Beast Mode Hip-Hop</div>
+                    <div class="card-info">Energy tracks to get your beast mode on.</div>
+                    <i class="fa-sharp fa-solid fa-circle-play play-icon"></i>
+                </div>
+            </div>
+
+            <h2>More Like Shubh</h2>
+            <div class="card-container">
+                <div class="album">
+                    <img src="/assets/row6 (5).jpeg" class="card-img">
+                    <div class="card-title">Chaa & chill</div>
+                    <div class="card-info">Time to chill with your favorites.</div>
+                    <i class="fa-sharp fa-solid fa-circle-play play-icon"></i>
+                </div>
+                <div class="album">
+                    <img src="/assets/row6 (3).jpeg" class="card-img">
+                    <div class="card-title">Punjabi Bae</div>
+                    <div class="card-info">Artists that are always on your minds!</div>
+                    <i class="fa-sharp fa-solid fa-circle-play play-icon"></i>
+                </div>
+                <div class="album">
+                    <img src="/assets/row6 (1).jpeg" class="card-img">
+                    <div class="card-title">Way Ahead</div>
+                    <div class="card-info">Karan Aujla</div>
+                    <i class="fa-sharp fa-solid fa-circle-play play-icon"></i>
+                </div>
+                <div class="album">
+                    <img src="/assets/row6 (2).jpeg" class="card-img">
+                    <div class="card-title">Priceless</div>
+                    <div class="card-info">Bhalwaan, Signature By SB</div>
+                    <i class="fa-sharp fa-solid fa-circle-play play-icon"></i>
+                </div>
+                <div class="album">
+                    <img src="/assets/row6 (4).jpeg" class="card-img">
+                    <div class="card-title">Top Punjabi Male Artists..</div>
+                    <div class="card-info">Top Punjabi Male Artists of 2020 on Spotify. Cover: B...</div>
+                    <i class="fa-sharp fa-solid fa-circle-play play-icon"></i>
+                </div>
+            </div>
+
+            <h2>Best of Artists</h2>
+            <div class="card-container">
+                <div class="album">
+                    <img src="/assets/row7 (1).jpeg" class="card-img">
+                    <div class="card-title">This Is Arijit Singh</div>
+                    <div class="card-info">Bollywood crooner's essential songs.</div>
+                    <i class="fa-sharp fa-solid fa-circle-play play-icon"></i>
+                </div>
+                <div class="album">
+                    <img src="/assets/row7 (2).jpeg" class="card-img">
+                    <div class="card-title">This Is Diljit Dosanjh</div>
+                    <div class="card-info">Punjabi superstars biggest hits.</div>
+                    <i class="fa-sharp fa-solid fa-circle-play play-icon"></i>
+                </div>
+                <div class="album">
+                    <img src="/assets/row7 (4).jpg" class="card-img">
+                    <div class="card-title">This Is Shubh</div>
+                    <div class="card-info">This is Shubh. the essential tracks, all in one playlist.</div>
+                    <i class="fa-sharp fa-solid fa-circle-play play-icon"></i>
+                </div>
+                <div class="album">
+                    <img src="/assets/row7 (3).jpg" class="card-img">
+                    <div class="card-title">This Is Karan Aujla</div>
+                    <div class="card-info">This is Karan Aujla. The essential tracks, all in one...</div>
+                    <i class="fa-sharp fa-solid fa-circle-play play-icon"></i>
+                </div>
+                <div class="album">
+                    <img src="/assets/row7 (5).jpg" class="card-img">
+                    <div class="card-title">This Is Pritam</div>
+                    <div class="card-info">This is Pritam. The essential tracks, all in one playlist.</div>
+                    <i class="fa-sharp fa-solid fa-circle-play play-icon"></i>
+                </div>
+            </div>
+
+            <h2>Pop</h2>
+            <div class="card-container">
+                <div class="album">
+                    <img src="/assets/row8 (1).jpeg" class="card-img">
+                    <div class="card-title">Pakistani Pop</div>
+                    <div class="card-info">Trending Pop hits in Pakistan. Cover: Nehaal Naseem, Aas...</div>
+                    <i class="fa-sharp fa-solid fa-circle-play play-icon"></i>
+                </div>
+                <div class="album">
+                    <img src="/assets/row8 (2).jpeg" class="card-img">
+                    <div class="card-title">Pakistani 10s Hits</div>
+                    <div class="card-info">The biggest Pakistani bops pf 10s. Cover: Young Stunners,...</div>
+                    <i class="fa-sharp fa-solid fa-circle-play play-icon"></i>
+                </div>
+                <div class="album">
+                    <img src="/assets/row8 (3).jpeg" class="card-img">
+                    <div class="card-title">Pakistani 00s Hits</div>
+                    <div class="card-info">The biggest Pakistani tracks of 00s. Cover: Atif Aslam, Abid...</div>
+                    <i class="fa-sharp fa-solid fa-circle-play play-icon"></i>
+                </div>
+                <div class="album">
+                    <img src="/assets/row8 (4).jpeg" class="card-img">
+                    <div class="card-title">Pakistani 90s Hits</div>
+                    <div class="card-info">Nostalgia dose of 90s bops. Cover: Sajjad Ali</div>
+                    <i class="fa-sharp fa-solid fa-circle-play play-icon"></i>
+                </div>
+                <div class="album">
+                    <img src="/assets/row8 (5).jpeg" class="card-img">
+                    <div class="card-title">Pakka Hit Hai</div>
+                    <div class="card-info">Current Pakistani hits under one roof. Coverr: Nehaal...</div>
+                    <i class="fa-sharp fa-solid fa-circle-play play-icon"></i>
+                </div>
+            </div>
+
+            <div class="footer">
+                <div class="footer-menu">
+                    <div class="links-one">
+                        <h4>Company</h4>
+                        <p class="link">About</p>
+                        <p class="link">Jobs</p>
+                        <p class="link">For the record</p>
+                    </div>
+                    <div class="links-two">
+                        <h4>Communities</h4>
+                        <p class="link">For Artists</p>
+                        <p class="link">Developers</p>
+                        <p class="link">Advertising</p>
+                        <p class="link">Investors</p>
+                        <p class="link">Vendors</p>
+                    </div>
+                    <div class="links-three">
+                        <h4>Useful Links</h4>
+                        <p class="link">Support</p>
+                        <p class="link">Free Mobile App</p>
+                    </div>
+                </div>
+                <div class="social-media">
+                    <ul>
+                        <button><i class="fa-brands fa-instagram"></i></button>
+                        <button><i class="fa-brands fa-twitter"></i></button>
+                        <button><i class="fa-brands fa-facebook"></i></button>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-line">
+                <div class="line"></div>                
+            </div>
+            <div class="footer-policies">
+                <div class="policies">
+                    <p class="p-link">Legal</p>
+                    <p class="p-link">Safety & Privacy Center</p>
+                    <p class="p-link">Privacy policy</p>
+                    <p class="p-link">Cookies</p>
+                    <p class="p-link">About Ads</p>
+                    <p class="p-link">Accessibilty</p>
+                </div>
+                <p class="trademark">
+                    @ 2024 Spotify AB
+                </p>
+            </div>
+        </div>
+            <div class="music-player">
+            <div class="cover">
+                <img class="cover-pic" src="/assets/Cover.jpeg">
+                <div class="Song">
+                    <div class="title">Burdah</div>
+                    <div class="singer">Mesut Kurtis</div>
+                </div>
+                <i class="fa-regular fa-heart"></i>
+            </div>
+            <div class="player">
+                <div class="player-controls">
+                    <img src="/assets/player_icon1.png" class="player-control-icons">
+                    <img src="/assets/player_icon2.png" class="player-control-icons">
+                    <img src="/assets/player_icon3.png" class="player-control-icons" style="height: 2rem; opacity: 1;">
+                    <img src="/assets/player_icon4.png" class="player-control-icons">
+                    <img src="/assets/player_icon5.png" class="player-control-icons">
+                </div>
+                <div class="playback-bar">
+                    <span class="current-time">0:00</span>
+                    <input type="range" min="0" max="100" class="progress-bar" value="100">
+                    <span class="total-time">3:33</span>
+                </div>
+            </div>
+            <div class="controls">
+                <i class="bi bi-file-play control-icon"></i>
+                <img src="/assets/mic.png" class="control-icon">
+                <img src="/assets/Stack.png" class="control-icon">
+                <img src="/assets/connnect.png" class="control-icon">
+                <img src="assets/volume_medium_sound_music_audio_icon.png" class="control-icon">
+                <input type="range" class="vol-bar" value="100">
+                <i class="bi bi-pip control-icon"></i>
+                <i class="bi bi-arrows-angle-expand control-icon"></i>
+            </div>
+         </div>
+</body>
+</html>
